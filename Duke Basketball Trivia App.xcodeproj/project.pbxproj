@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE3C3F872B30C9C60005F786 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C3F862B30C9C60005F786 /* PrimaryButton.swift */; };
+		CE3C3F8A2B30DCBC0005F786 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3C3F892B30DCBC0005F786 /* Extensions.swift */; };
+		CE7D23082B3146E500274BB8 /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7D23072B3146E500274BB8 /* Answer.swift */; };
+		CE7D230A2B31480100274BB8 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7D23092B31480100274BB8 /* AnswerRow.swift */; };
+		CEC601442B30FF8600151ACE /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC601432B30FF8600151ACE /* ProgressBar.swift */; };
+		CECC50A92B3263EC004E431D /* TriviaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC50A82B3263EC004E431D /* TriviaView.swift */; };
+		CECC50AB2B326699004E431D /* Trivia.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECC50AA2B326699004E431D /* Trivia.swift */; };
+		CED108372B2FE3800005F388 /* Duke_Basketball_Trivia_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED108362B2FE3800005F388 /* Duke_Basketball_Trivia_AppApp.swift */; };
+		CED108392B2FE3800005F388 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED108382B2FE3800005F388 /* ContentView.swift */; };
+		CED1083B2B2FE3810005F388 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED1083A2B2FE3810005F388 /* Assets.xcassets */; };
+		CED1083E2B2FE3810005F388 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED1083D2B2FE3810005F388 /* Preview Assets.xcassets */; };
+		CED108482B2FE3810005F388 /* Duke_Basketball_Trivia_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED108472B2FE3810005F388 /* Duke_Basketball_Trivia_AppTests.swift */; };
+		CED108522B2FE3810005F388 /* Duke_Basketball_Trivia_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED108512B2FE3810005F388 /* Duke_Basketball_Trivia_AppUITests.swift */; };
+		CED108542B2FE3810005F388 /* Duke_Basketball_Trivia_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED108532B2FE3810005F388 /* Duke_Basketball_Trivia_AppUITestsLaunchTests.swift */; };
+		CED108632B2FFA2F0005F388 /* Fight.wav in Resources */ = {isa = PBXBuildFile; fileRef = CED108622B2FFA2F0005F388 /* Fight.wav */; };
+		CEE3BC9C2B30F7F1000BD2E3 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE3BC9B2B30F7F1000BD2E3 /* QuestionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CED108442B2FE3810005F388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED1082B2B2FE37F0005F388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED108322B2FE3800005F388;
+			remoteInfo = "Duke Basketball Trivia App";
+		};
+		CED1084E2B2FE3810005F388 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED1082B2B2FE37F0005F388 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED108322B2FE3800005F388;
+			remoteInfo = "Duke Basketball Trivia App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE3C3F862B30C9C60005F786 /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		CE3C3F892B30DCBC0005F786 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CE7D23072B3146E500274BB8 /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
+		CE7D23092B31480100274BB8 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
+		CEC601432B30FF8600151ACE /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		CECC50A82B3263EC004E431D /* TriviaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaView.swift; sourceTree = "<group>"; };
+		CECC50AA2B326699004E431D /* Trivia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trivia.swift; sourceTree = "<group>"; };
+		CED108332B2FE3800005F388 /* Duke Basketball Trivia App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Duke Basketball Trivia App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED108362B2FE3800005F388 /* Duke_Basketball_Trivia_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duke_Basketball_Trivia_AppApp.swift; sourceTree = "<group>"; };
+		CED108382B2FE3800005F388 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CED1083A2B2FE3810005F388 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CED1083D2B2FE3810005F388 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CED108432B2FE3810005F388 /* Duke Basketball Trivia AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Duke Basketball Trivia AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED108472B2FE3810005F388 /* Duke_Basketball_Trivia_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duke_Basketball_Trivia_AppTests.swift; sourceTree = "<group>"; };
+		CED1084D2B2FE3810005F388 /* Duke Basketball Trivia AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Duke Basketball Trivia AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED108512B2FE3810005F388 /* Duke_Basketball_Trivia_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duke_Basketball_Trivia_AppUITests.swift; sourceTree = "<group>"; };
+		CED108532B2FE3810005F388 /* Duke_Basketball_Trivia_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duke_Basketball_Trivia_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CED108622B2FFA2F0005F388 /* Fight.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Fight.wav; path = "Duke Basketball Trivia App/Fight.wav"; sourceTree = SOURCE_ROOT; };
+		CEE3BC9B2B30F7F1000BD2E3 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED108302B2FE3800005F388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED108402B2FE3810005F388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED1084A2B2FE3810005F388 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE3C3F852B30C9590005F786 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CE3C3F862B30C9C60005F786 /* PrimaryButton.swift */,
+				CEC601432B30FF8600151ACE /* ProgressBar.swift */,
+				CE7D23092B31480100274BB8 /* AnswerRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		CE3C3F882B30CDAB0005F786 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CED108382B2FE3800005F388 /* ContentView.swift */,
+				CEE3BC9B2B30F7F1000BD2E3 /* QuestionView.swift */,
+				CECC50A82B3263EC004E431D /* TriviaView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CE7D23062B3146BE00274BB8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CE7D23072B3146E500274BB8 /* Answer.swift */,
+				CECC50AA2B326699004E431D /* Trivia.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CED1082A2B2FE37F0005F388 = {
+			isa = PBXGroup;
+			children = (
+				CED108352B2FE3800005F388 /* Duke Basketball Trivia App */,
+				CED108462B2FE3810005F388 /* Duke Basketball Trivia AppTests */,
+				CED108502B2FE3810005F388 /* Duke Basketball Trivia AppUITests */,
+				CED108342B2FE3800005F388 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CED108342B2FE3800005F388 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED108332B2FE3800005F388 /* Duke Basketball Trivia App.app */,
+				CED108432B2FE3810005F388 /* Duke Basketball Trivia AppTests.xctest */,
+				CED1084D2B2FE3810005F388 /* Duke Basketball Trivia AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED108352B2FE3800005F388 /* Duke Basketball Trivia App */ = {
+			isa = PBXGroup;
+			children = (
+				CED108362B2FE3800005F388 /* Duke_Basketball_Trivia_AppApp.swift */,
+				CED1083A2B2FE3810005F388 /* Assets.xcassets */,
+				CED108622B2FFA2F0005F388 /* Fight.wav */,
+				CE3C3F882B30CDAB0005F786 /* Views */,
+				CE3C3F852B30C9590005F786 /* Components */,
+				CED1083C2B2FE3810005F388 /* Preview Content */,
+				CE3C3F892B30DCBC0005F786 /* Extensions.swift */,
+				CE7D23062B3146BE00274BB8 /* Models */,
+			);
+			path = "Duke Basketball Trivia App";
+			sourceTree = "<group>";
+		};
+		CED1083C2B2FE3810005F388 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CED1083D2B2FE3810005F388 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CED108462B2FE3810005F388 /* Duke Basketball Trivia AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CED108472B2FE3810005F388 /* Duke_Basketball_Trivia_AppTests.swift */,
+			);
+			path = "Duke Basketball Trivia AppTests";
+			sourceTree = "<group>";
+		};
+		CED108502B2FE3810005F388 /* Duke Basketball Trivia AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CED108512B2FE3810005F388 /* Duke_Basketball_Trivia_AppUITests.swift */,
+				CED108532B2FE3810005F388 /* Duke_Basketball_Trivia_AppUITestsLaunchTests.swift */,
+			);
+			path = "Duke Basketball Trivia AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED108322B2FE3800005F388 /* Duke Basketball Trivia App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED108572B2FE3810005F388 /* Build configuration list for PBXNativeTarget "Duke Basketball Trivia App" */;
+			buildPhases = (
+				CED1082F2B2FE3800005F388 /* Sources */,
+				CED108302B2FE3800005F388 /* Frameworks */,
+				CED108312B2FE3800005F388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Duke Basketball Trivia App";
+			productName = "Duke Basketball Trivia App";
+			productReference = CED108332B2FE3800005F388 /* Duke Basketball Trivia App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CED108422B2FE3810005F388 /* Duke Basketball Trivia AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED1085A2B2FE3810005F388 /* Build configuration list for PBXNativeTarget "Duke Basketball Trivia AppTests" */;
+			buildPhases = (
+				CED1083F2B2FE3810005F388 /* Sources */,
+				CED108402B2FE3810005F388 /* Frameworks */,
+				CED108412B2FE3810005F388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED108452B2FE3810005F388 /* PBXTargetDependency */,
+			);
+			name = "Duke Basketball Trivia AppTests";
+			productName = "Duke Basketball Trivia AppTests";
+			productReference = CED108432B2FE3810005F388 /* Duke Basketball Trivia AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CED1084C2B2FE3810005F388 /* Duke Basketball Trivia AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED1085D2B2FE3810005F388 /* Build configuration list for PBXNativeTarget "Duke Basketball Trivia AppUITests" */;
+			buildPhases = (
+				CED108492B2FE3810005F388 /* Sources */,
+				CED1084A2B2FE3810005F388 /* Frameworks */,
+				CED1084B2B2FE3810005F388 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED1084F2B2FE3810005F388 /* PBXTargetDependency */,
+			);
+			name = "Duke Basketball Trivia AppUITests";
+			productName = "Duke Basketball Trivia AppUITests";
+			productReference = CED1084D2B2FE3810005F388 /* Duke Basketball Trivia AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED1082B2B2FE37F0005F388 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					CED108322B2FE3800005F388 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					CED108422B2FE3810005F388 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = CED108322B2FE3800005F388;
+					};
+					CED1084C2B2FE3810005F388 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = CED108322B2FE3800005F388;
+					};
+				};
+			};
+			buildConfigurationList = CED1082E2B2FE37F0005F388 /* Build configuration list for PBXProject "Duke Basketball Trivia App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CED1082A2B2FE37F0005F388;
+			productRefGroup = CED108342B2FE3800005F388 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED108322B2FE3800005F388 /* Duke Basketball Trivia App */,
+				CED108422B2FE3810005F388 /* Duke Basketball Trivia AppTests */,
+				CED1084C2B2FE3810005F388 /* Duke Basketball Trivia AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CED108312B2FE3800005F388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED1083E2B2FE3810005F388 /* Preview Assets.xcassets in Resources */,
+				CED108632B2FFA2F0005F388 /* Fight.wav in Resources */,
+				CED1083B2B2FE3810005F388 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED108412B2FE3810005F388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED1084B2B2FE3810005F388 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED1082F2B2FE3800005F388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEE3BC9C2B30F7F1000BD2E3 /* QuestionView.swift in Sources */,
+				CECC50A92B3263EC004E431D /* TriviaView.swift in Sources */,
+				CECC50AB2B326699004E431D /* Trivia.swift in Sources */,
+				CE3C3F8A2B30DCBC0005F786 /* Extensions.swift in Sources */,
+				CE7D230A2B31480100274BB8 /* AnswerRow.swift in Sources */,
+				CED108392B2FE3800005F388 /* ContentView.swift in Sources */,
+				CE7D23082B3146E500274BB8 /* Answer.swift in Sources */,
+				CED108372B2FE3800005F388 /* Duke_Basketball_Trivia_AppApp.swift in Sources */,
+				CEC601442B30FF8600151ACE /* ProgressBar.swift in Sources */,
+				CE3C3F872B30C9C60005F786 /* PrimaryButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED1083F2B2FE3810005F388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED108482B2FE3810005F388 /* Duke_Basketball_Trivia_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED108492B2FE3810005F388 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED108522B2FE3810005F388 /* Duke_Basketball_Trivia_AppUITests.swift in Sources */,
+				CED108542B2FE3810005F388 /* Duke_Basketball_Trivia_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CED108452B2FE3810005F388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED108322B2FE3800005F388 /* Duke Basketball Trivia App */;
+			targetProxy = CED108442B2FE3810005F388 /* PBXContainerItemProxy */;
+		};
+		CED1084F2B2FE3810005F388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED108322B2FE3800005F388 /* Duke Basketball Trivia App */;
+			targetProxy = CED1084E2B2FE3810005F388 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CED108552B2FE3810005F388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CED108562B2FE3810005F388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CED108582B2FE3810005F388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Duke Basketball Trivia App/Preview Content\"";
+				DEVELOPMENT_TEAM = 7GP2ZKD974;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Trivia;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-47HadenLane.Duke-Basketball-Trivia-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CED108592B2FE3810005F388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Duke Basketball Trivia App/Preview Content\"";
+				DEVELOPMENT_TEAM = 7GP2ZKD974;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Trivia;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-47HadenLane.Duke-Basketball-Trivia-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CED1085B2B2FE3810005F388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7GP2ZKD974;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-47HadenLane.Duke-Basketball-Trivia-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Duke Basketball Trivia App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Duke Basketball Trivia App";
+			};
+			name = Debug;
+		};
+		CED1085C2B2FE3810005F388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7GP2ZKD974;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-47HadenLane.Duke-Basketball-Trivia-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Duke Basketball Trivia App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Duke Basketball Trivia App";
+			};
+			name = Release;
+		};
+		CED1085E2B2FE3810005F388 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7GP2ZKD974;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-47HadenLane.Duke-Basketball-Trivia-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Duke Basketball Trivia App";
+			};
+			name = Debug;
+		};
+		CED1085F2B2FE3810005F388 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7GP2ZKD974;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-47HadenLane.Duke-Basketball-Trivia-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Duke Basketball Trivia App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED1082E2B2FE37F0005F388 /* Build configuration list for PBXProject "Duke Basketball Trivia App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED108552B2FE3810005F388 /* Debug */,
+				CED108562B2FE3810005F388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED108572B2FE3810005F388 /* Build configuration list for PBXNativeTarget "Duke Basketball Trivia App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED108582B2FE3810005F388 /* Debug */,
+				CED108592B2FE3810005F388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED1085A2B2FE3810005F388 /* Build configuration list for PBXNativeTarget "Duke Basketball Trivia AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED1085B2B2FE3810005F388 /* Debug */,
+				CED1085C2B2FE3810005F388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED1085D2B2FE3810005F388 /* Build configuration list for PBXNativeTarget "Duke Basketball Trivia AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED1085E2B2FE3810005F388 /* Debug */,
+				CED1085F2B2FE3810005F388 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CED1082B2B2FE37F0005F388 /* Project object */;
+}
