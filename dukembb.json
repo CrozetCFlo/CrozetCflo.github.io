@@ -1,45 +1,45 @@
 {
-  "response_code"; 0,
-  "results"; [
-  {
-    "category": "Sports",
-    "type": "multiple",
-    "difficulty": "easy",
-    "question": "Which Duke player won the Naismith College Player of the Year award in 2019?",
-    "correct_answer": "Zion Williamson",
-    "incorrect_answers": ["RJ Barrett", "Cam Reddish", "Tre Jones"]
-  },
-  {
-    "category": "Sports",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "In what year did Duke University win its first NCAA Men's Basketball Championship?",
-    "correct_answer": "1991",
-    "incorrect_answers": ["1986", "1994", "2001"]
-  },
-  {
-    "category": "Sports",
-    "type": "multiple",
-    "difficulty": "hard",
-    "question": "Who is the all-time leading scorer in Duke men's basketball history?",
-    "correct_answer": "Christian Laettner",
-    "incorrect_answers": ["J.J. Redick", "Grant Hill", "Kyrie Irving"]
-  },
-  {
-    "category": "Sports",
-    "type": "multiple",
-    "difficulty": "easy",
-    "question": "Which coach led the Duke Blue Devils to five NCAA championships?",
-    "correct_answer": "Mike Krzyzewski",
-    "incorrect_answers": ["Roy Williams", "John Wooden", "Bob Knight"]
-  },
-  {
-    "category": "Sports",
-    "type": "multiple",
-    "difficulty": "medium",
-    "question": "What is the name of Duke's home basketball arena?",
-    "correct_answer": "Cameron Indoor Stadium",
-    "incorrect_answers": ["Dean Smith Center", "Carrier Dome", "Rupp Arena"]
-  }
-]
+  "response_code": 0,
+  "results": [
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which Duke player won the Naismith College Player of the Year award in 2019?",
+      "correct_answer": "Zion Williamson",
+      "incorrect_answers": ["RJ Barrett", "Cam Reddish", "Tre Jones"]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In what year did Duke University win its first NCAA Men's Basketball Championship?",
+      "correct_answer": "1991",
+      "incorrect_answers": ["1986", "1994", "2001"]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "hard",
+      "question": "Who is the all-time leading scorer in Duke men's basketball history?",
+      "correct_answer": "Christian Laettner",
+      "incorrect_answers": ["J.J. Redick", "Grant Hill", "Kyrie Irving"]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which coach led the Duke Blue Devils to five NCAA championships?",
+      "correct_answer": "Mike Krzyzewski",
+      "incorrect_answers": ["Roy Williams", "John Wooden", "Bob Knight"]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What is the name of Duke's home basketball arena?",
+      "correct_answer": "Cameron Indoor Stadium",
+      "incorrect_answers": ["Dean Smith Center", "Carrier Dome", "Rupp Arena"]
+    }
+  ]
 }
