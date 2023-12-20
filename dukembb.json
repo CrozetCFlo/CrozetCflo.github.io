@@ -1,4 +1,6 @@
-[
+{
+  "response_code"; 0,
+  "results"; [
   {
     "category": "Sports",
     "type": "multiple",
@@ -40,3 +42,4 @@
     "incorrect_answers": ["Dean Smith Center", "Carrier Dome", "Rupp Arena"]
   }
 ]
+}
