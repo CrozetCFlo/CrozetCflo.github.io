@@ -12,6 +12,14 @@
     {
       "category": "Sports",
       "type": "multiple",
+      "difficulty": "medium",
+      "question": "Who is your husband's favorite player from the 2014-2015 season?",
+      "correct_answer": "Justise Winslow",
+      "incorrect_answers": ["Grayson Allen", "Tyus Jones", "Matt Jones"]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
       "difficulty": "easy",
       "question": "Which Duke player won the John R. Wooden Award for the best player in college basketball in 2002?",
       "correct_answer": "Jason Williams",
