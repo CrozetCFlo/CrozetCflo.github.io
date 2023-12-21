@@ -1,14 +1,14 @@
 {
   "response_code": 0,
   "results": [
-{
-  "category": "Sports",
-  "type": "multiple",
-  "difficulty": "medium",
-  "question": "During the 1980s, Duke consistently participated in a prestigious early-season tournament. What is the name of that tournament, and did they win any titles during the 1980s?",
-  "correct_answer": "The Great Alaska Shootout, Yes",
-  "incorrect_answers": ["Maui Invitational, No", "Preseason NIT, Yes", "Battle 4 Atlantis, No"]
-},
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "During the 1980s, Duke consistently participated in a prestigious early-season tournament. What is the name of that tournament, and did they win any titles during the 1980s?",
+      "correct_answer": "The Great Alaska Shootout, Yes",
+      "incorrect_answers": ["Maui Invitational, No", "Preseason NIT, Yes", "Battle 4 Atlantis, No"]
+    },
     {
       "category": "Sports",
       "type": "multiple",
@@ -34,117 +34,117 @@
       "incorrect_answers": ["2000-2001", "2005-2006", "2013-2014"]
     },
     {
-  "category": "Sports",
-  "type": "multiple",
-  "difficulty": "medium",
-  "question": "In 1991, Duke won their first NCAA Championship under Coach K. Who was the Most Outstanding Player (MOP) of the Final Four tournament that year?",
-  "correct_answer": "Christian Laettner",
-  "incorrect_answers": ["Grant Hill", "Bobby Hurley", "Brian Davis"]
-},
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In 1991, Duke won their first NCAA Championship under Coach K. Who was the Most Outstanding Player (MOP) of the Final Four tournament that year?",
+      "correct_answer": "Christian Laettner",
+      "incorrect_answers": ["Grant Hill", "Bobby Hurley", "Brian Davis"]
+    },
     {
-  "category": "Sports",
-  "type": "multiple",
-  "difficulty": "medium",
-  "question": "In 2001, Duke made it to the NCAA Championship game but lost. Which team did they face, and what was the final score?",
-  "correct_answer": "Arizona, 82-72",
-  "incorrect_answers": ["Michigan State, 68-84", "Connecticut, 79-77", "Florida, 70-71"]
-},
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In 2001, Duke made it to the NCAA Championship game but lost. Which team did they face, and what was the final score?",
+      "correct_answer": "Arizona, 82-72",
+      "incorrect_answers": ["Michigan State, 68-84", "Connecticut, 79-77", "Florida, 70-71"]
+    },
     {
-  "category": "Sports",
-  "type": "multiple",
-  "difficulty": "easy",
-  "question": "During the 2004-2005 season, which Duke player won the Naismith College Player of the Year award?",
-  "correct_answer": "J.J. Redick",
-  "incorrect_answers": ["Chris Duhon", "Luol Deng", "Shelden Williams"]
-},
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "During the 2004-2005 season, which Duke player won the Naismith College Player of the Year award?",
+      "correct_answer": "J.J. Redick",
+      "incorrect_answers": ["Chris Duhon", "Luol Deng", "Shelden Williams"]
+    },
     {
-  "category": "Sports",
-  "type": "multiple",
-  "difficulty": "medium",
-  "question": "In the 2014-2015 season, Duke won the NCAA Championship under Coach K. Who was named the Most Outstanding Player (MOP) of the Final Four tournament?",
-  "correct_answer": "Tyus Jones",
-  "incorrect_answers": ["Jahlil Okafor", "Justise Winslow", "Quinn Cook"]
-},
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In the 2014-2015 season, Duke won the NCAA Championship under Coach K. Who was named the Most Outstanding Player (MOP) of the Final Four tournament?",
+      "correct_answer": "Tyus Jones",
+      "incorrect_answers": ["Jahlil Okafor", "Justise Winslow", "Quinn Cook"]
+    },
     {
-  "category": "Sports",
-  "type": "multiple",
-  "difficulty": "medium",
-  "question": "In 2008, Duke missed the NCAA Tournament for the first time in several years. Which conference tournament did they lose in that year?",
-  "correct_answer": "ACC Tournament",
-  "incorrect_answers": ["Big East Tournament", "SEC Tournament", "Pac-10 Tournament"]
-},
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In 2008, Duke missed the NCAA Tournament for the first time in several years. Which conference tournament did they lose in that year?",
+      "correct_answer": "ACC Tournament",
+      "incorrect_answers": ["Big East Tournament", "SEC Tournament", "Pac-10 Tournament"]
+    },
     {
-  "category": "Sports",
-  "type": "multiple",
-  "difficulty": "easy",
-  "question": "What nickname was given to the Duke team during the late 1980s, led by players like Danny Ferry and Christian Laettner?",
-  "correct_answer": "The Gotta-Have-It Grey Boys",
-  "incorrect_answers": ["The Blue Devils", "The Cameron Crazies", "The Iron Dukes"]
-},
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "What nickname was given to the Duke team during the late 1980s, led by players like Danny Ferry and Christian Laettner?",
+      "correct_answer": "The Gotta-Have-It Grey Boys",
+      "incorrect_answers": ["The Blue Devils", "The Cameron Crazies", "The Iron Dukes"]
+    },
     {
-  "category": "Sports",
-  "type": "multiple",
-  "difficulty": "easy",
-  "question": "During the 1990s, which Duke player became known for his remarkable three-point shooting and was nicknamed 'The Landlord'?",
-  "correct_answer": "Trajan Langdon",
-  "incorrect_answers": ["Chris Collins", "Steve Wojciechowski", "Roshown McLeod"]
-},
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "During the 1990s, which Duke player became known for his remarkable three-point shooting and was nicknamed 'The Landlord'?",
+      "correct_answer": "Trajan Langdon",
+      "incorrect_answers": ["Chris Collins", "Steve Wojciechowski", "Roshown McLeod"]
+    },
     {
-  "category": "Sports",
-  "type": "multiple",
-  "difficulty": "medium",
-  "question": "In the 1994 NCAA Championship game, Duke lost to Arkansas. Who was the head coach of the Arkansas team that year?",
-  "correct_answer": "Nolan Richardson",
-  "incorrect_answers": ["Roy Williams", "Mike Krzyzewski", "Rick Pitino"]
-},
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In the 1994 NCAA Championship game, Duke lost to Arkansas. Who was the head coach of the Arkansas team that year?",
+      "correct_answer": "Nolan Richardson",
+      "incorrect_answers": ["Roy Williams", "Mike Krzyzewski", "Rick Pitino"]
+    },
     {
-  "category": "Sports",
-  "type": "multiple",
-  "difficulty": "medium",
-  "question": "In 1992, Duke successfully defended their NCAA Championship title. Who did they defeat in the championship game, and what was the final score?",
-  "correct_answer": "Michigan, 71-51",
-  "incorrect_answers": ["Indiana, 82-78", "Kentucky, 104-103", "North Carolina, 72-68"]
-},
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In 1992, Duke successfully defended their NCAA Championship title. Who did they defeat in the championship game, and what was the final score?",
+      "correct_answer": "Michigan, 71-51",
+      "incorrect_answers": ["Indiana, 82-78", "Kentucky, 104-103", "North Carolina, 72-68"]
+    },
     {
-  "category": "Sports",
-  "type": "multiple",
-  "difficulty": "easy",
-  "question": "Which Duke player was selected as the first overall pick in the 1999 NBA Draft?",
-  "correct_answer": "Elton Brand",
-  "incorrect_answers": ["Trajan Langdon", "Corey Maggette", "William Avery"]
-},
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which Duke player was selected as the first overall pick in the 1999 NBA Draft?",
+      "correct_answer": "Elton Brand",
+      "incorrect_answers": ["Trajan Langdon", "Corey Maggette", "William Avery"]
+    },
     {
-  "category": "Sports",
-  "type": "multiple",
-  "difficulty": "medium",
-  "question": "Duke won their first NCAA Championship in 1991. However, in the 1980s, they made it to the championship game twice but fell short. Name the years they reached the championship game.",
-  "correct_answer": "1986, 1990",
-  "incorrect_answers": ["1984, 1988", "1987, 1989", "1985, 1991"]
-},
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "Duke won their first NCAA Championship in 1991. However, in the 1980s, they made it to the championship game twice but fell short. Name the years they reached the championship game.",
+      "correct_answer": "1986, 1990",
+      "incorrect_answers": ["1984, 1988", "1987, 1989", "1985, 1991"]
+    },
     {
-  "category": "Sports",
-  "type": "multiple",
-  "difficulty": "medium",
-  "question": "In 1984, Duke made it to the Final Four. Who was the Most Outstanding Player of that Final Four tournament?",
-  "correct_answer": "Johnny Dawkins",
-  "incorrect_answers": ["Danny Ferry", "Christian Laettner", "Grant Hill"]
-},
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In 1984, Duke made it to the Final Four. Who was the Most Outstanding Player of that Final Four tournament?",
+      "correct_answer": "Johnny Dawkins",
+      "incorrect_answers": ["Danny Ferry", "Christian Laettner", "Grant Hill"]
+    },
     {
-  "category": "Sports",
-  "type": "multiple",
-  "difficulty": "easy",
-  "question": "During the 1985-1986 season, Duke set a school record for most wins in a season. How many wins did they achieve that year?",
-  "correct_answer": "37",
-  "incorrect_answers": ["32", "42", "47"]
-},
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "During the 1985-1986 season, Duke set a school record for most wins in a season. How many wins did they achieve that year?",
+      "correct_answer": "37",
+      "incorrect_answers": ["32", "42", "47"]
+    },
     {
-  "category": "Sports",
-  "type": "multiple",
-  "difficulty": "easy",
-  "question": "Which player was the leading scorer for Duke during the 1988-1989 season?",
-  "correct_answer": "Danny Ferry",
-  "incorrect_answers": ["Christian Laettner", "Johnny Dawkins", "Grant Hill"]
-},
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "easy",
+      "question": "Which player was the leading scorer for Duke during the 1988-1989 season?",
+      "correct_answer": "Danny Ferry",
+      "incorrect_answers": ["Christian Laettner", "Johnny Dawkins", "Grant Hill"]
+    },
     {
       "category": "Sports",
       "type": "multiple",
@@ -168,6 +168,6 @@
       "question": "Who is the only Duke player to have his jersey number retired twice?",
       "correct_answer": "Christian Laettner",
       "incorrect_answers": ["Grant Hill", "J.J. Redick", "Kyrie Irving"]
-    },
+    }
   ]
 }
