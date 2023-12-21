@@ -117,9 +117,9 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In the 1994 NCAA Championship game, Duke lost to Arkansas. Who was the head coach of the Arkansas team that year?",
-      "correct_answer": "Nolan Richardson",
-      "incorrect_answers": ["Roy Williams", "Mike Krzyzewski", "Rick Pitino"]
+      "question": "What is the capacity of Cameron Indoor Stadium?",
+      "correct_answer": "9,314",
+      "incorrect_answers": ["9,022", "9,111", "9,202"]
     },
     {
       "category": "Sports",
@@ -141,9 +141,9 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "Duke won their first NCAA Championship in 1991. However, in the 1980s, they made it to the championship game twice but fell short. Name the years they reached the championship game.",
-      "correct_answer": "1986, 1990",
-      "incorrect_answers": ["1984, 1988", "1987, 1989", "1985, 1991"]
+      "question": "Who holds thwe record for most points in a single game?",
+      "correct_answer": "Danny Ferry, 58",
+      "incorrect_answers": ["J.J. Redick, 41", "Dick Groat, 48", "Christian Laettner, 50"]
     },
     {
       "category": "Sports",
@@ -159,7 +159,7 @@
       "difficulty": "easy",
       "question": "Which player was the leading scorer for Duke during the 1988-1989 season?",
       "correct_answer": "Danny Ferry",
-      "incorrect_answers": ["Christian Laettner", "Johnny Dawkins", "Grant Hill"]
+      "incorrect_answers": ["Christian Laettner", "Quin Snyder", "Grant Hill"]
     }
   ]
 }
