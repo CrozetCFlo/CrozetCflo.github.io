@@ -13,6 +13,38 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "medium",
+      "question": "#33 is a retired jersey. Who wore it?",
+      "correct_answer": "Grant Hill",
+      "incorrect_answers": ["Jason Williams", "Shane Battier", "Bobby Hurley"]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "What was the total number of combined points scored by both teams in the infamous Kentucky Game in 1992?",
+      "correct_answer": "207",
+      "incorrect_answers": ["200", "211", "205"]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "On February 19, 2006, which Duke Men's basketball player surpassed Johnny Dawkins as the team's all-time career points leader?",
+      "correct_answer": "J.J. Redick",
+      "incorrect_answers": ["Shelden Willilams", "Greg Paulus", "Josh McRoberts"]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
+      "question": "In 1991, Duke had to beat which team in the National semi-final to reach the championship game?",
+      "correct_answer": "UNLV",
+      "incorrect_answers": ["Kansas", "Michigan State", "North Carolina"]
+    },
+    {
+      "category": "Sports",
+      "type": "multiple",
+      "difficulty": "medium",
       "question": "Who is your husband's favorite player from the 2014-2015 season?",
       "correct_answer": "Justise Winslow",
       "incorrect_answers": ["Grayson Allen", "Tyus Jones", "Matt Jones"]
