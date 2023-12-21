@@ -14,7 +14,7 @@
       "type": "multiple",
       "difficulty": "easy",
       "question": "Which Duke player won the John R. Wooden Award for the best player in college basketball in 2002?",
-      "correct_answer": "Jay Williams",
+      "correct_answer": "Jason Williams",
       "incorrect_answers": ["Shane Battier", "Carlos Boozer", "Mike Dunleavy Jr."]
     },
     {
@@ -45,7 +45,7 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "medium",
-      "question": "In 2001, Duke made it to the NCAA Championship game but lost. Which team did they face, and what was the final score?",
+      "question": "In 2001, Duke won the NCAA Championship. Which team did they face, and what was the final score?",
       "correct_answer": "Arizona, 82-72",
       "incorrect_answers": ["Michigan State, 68-84", "Connecticut, 79-77", "Florida, 70-71"]
     },
@@ -68,26 +68,10 @@
     {
       "category": "Sports",
       "type": "multiple",
-      "difficulty": "medium",
-      "question": "In 2008, Duke missed the NCAA Tournament for the first time in several years. Which conference tournament did they lose in that year?",
-      "correct_answer": "ACC Tournament",
-      "incorrect_answers": ["Big East Tournament", "SEC Tournament", "Pac-10 Tournament"]
-    },
-    {
-      "category": "Sports",
-      "type": "multiple",
       "difficulty": "easy",
       "question": "What nickname was given to the Duke team during the late 1980s, led by players like Danny Ferry and Christian Laettner?",
       "correct_answer": "The Gotta-Have-It Grey Boys",
       "incorrect_answers": ["The Blue Devils", "The Cameron Crazies", "The Iron Dukes"]
-    },
-    {
-      "category": "Sports",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "During the 1990s, which Duke player became known for his remarkable three-point shooting and was nicknamed 'The Landlord'?",
-      "correct_answer": "Trajan Langdon",
-      "incorrect_answers": ["Chris Collins", "Steve Wojciechowski", "Roshown McLeod"]
     },
     {
       "category": "Sports",
@@ -124,14 +108,6 @@
     {
       "category": "Sports",
       "type": "multiple",
-      "difficulty": "medium",
-      "question": "In 1984, Duke made it to the Final Four. Who was the Most Outstanding Player of that Final Four tournament?",
-      "correct_answer": "Johnny Dawkins",
-      "incorrect_answers": ["Danny Ferry", "Christian Laettner", "Grant Hill"]
-    },
-    {
-      "category": "Sports",
-      "type": "multiple",
       "difficulty": "easy",
       "question": "During the 1985-1986 season, Duke set a school record for most wins in a season. How many wins did they achieve that year?",
       "correct_answer": "37",
@@ -144,30 +120,6 @@
       "question": "Which player was the leading scorer for Duke during the 1988-1989 season?",
       "correct_answer": "Danny Ferry",
       "incorrect_answers": ["Christian Laettner", "Johnny Dawkins", "Grant Hill"]
-    },
-    {
-      "category": "Sports",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "Who is the only Duke player to win the NBA Most Valuable Player (MVP) award?",
-      "correct_answer": "Kevin Durant",
-      "incorrect_answers": ["Kyrie Irving", "Zion Williamson", "Grant Hill"]
-    },
-    {
-      "category": "Sports",
-      "type": "multiple",
-      "difficulty": "medium",
-      "question": "Which Duke player won the NBA Sixth Man of the Year award in 2020?",
-      "correct_answer": "Montrezl Harrell",
-      "incorrect_answers": ["Luke Kennard", "Grayson Allen", "Tyus Jones"]
-    },
-    {
-      "category": "Sports",
-      "type": "multiple",
-      "difficulty": "easy",
-      "question": "Who is the only Duke player to have his jersey number retired twice?",
-      "correct_answer": "Christian Laettner",
-      "incorrect_answers": ["Grant Hill", "J.J. Redick", "Kyrie Irving"]
     }
   ]
 }
