@@ -109,9 +109,9 @@
       "category": "Sports",
       "type": "multiple",
       "difficulty": "easy",
-      "question": "What nickname was given to the Duke team during the late 1980s, led by players like Danny Ferry and Christian Laettner?",
-      "correct_answer": "The Gotta-Have-It Grey Boys",
-      "incorrect_answers": ["The Blue Devils", "The Cameron Crazies", "The Iron Dukes"]
+      "question": "In the Championship Game against Kansas in 1991, who were the four Blue Devils who scored in double figures?",
+      "correct_answer": "Hill, McCaffrey, Hurley, Laettner",
+      "incorrect_answers": ["Hurley, Laettner, Hill, Koubek", "McCaffrey, Hurley, Hill, Davis", "Laettner, Davis, Hurley, Hill"]
     },
     {
       "category": "Sports",
